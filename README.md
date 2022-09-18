@@ -1,2 +1,4 @@
-# faster-rcnn-tf2
-A framework for object detection
+## faster-rcnn tensorflow2实现
+---
+## 架构图
+![image]faster-rcnn-structure.png
