@@ -11,7 +11,7 @@
 tensorflow-gpu==2.4.0
 
 ## 训练步骤
-1.准备好数据集，数据集的结构需要和voc数据集的格式一致。即annotation xml文件需要放在VOCdevkit/Annotations下，图片需要放在VOCdevkit\JPEGImages下  
+1.准备好数据集，数据集的结构需要和voc数据集的格式一致。即annotation xml文件需要放在VOCdevkit/Annotations下，图片需要放在VOCdevkit\JPEGImages下,如：D:/datasets/VOCdevkit  
   
 2.修改voc_annotation.py中的VOCdevkit_path配置，指向VOCdevkit这一级目录；修改classes_path配置，指向分类文件；首次运行annotation_mode=0，即需要分割数据集并且生成训练时用到的train.txt和val.txt，annotation_mode=1只会划分数据集，annotation=2则基于划分的数据集生成train.txt和val.txt  
   
